@@ -17,7 +17,7 @@
   --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --menu-weight: 400;
+  --text-weight: 400;
   --menu-text-weight: 500;
 }
 
@@ -31,12 +31,53 @@ label,
 input,
 select,
 textarea,
-button{
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: "Montserrat", "sans-serif";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
