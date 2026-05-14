@@ -1,6 +1,7 @@
 .offers-cards{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
@@ -13,7 +14,6 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
-  margin: auto;
 }
 
 .offers-cards .card header {
@@ -68,6 +68,7 @@
   .offers-cards{
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .offers-cards .card {
     width: 330px;
