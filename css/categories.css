@@ -30,15 +30,10 @@
 }
 
 .categories-cards .card.single-line {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
-}
-
-.section-title {
-  font-size: 32px;
-  margin-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,11 +50,11 @@
 
 @media screen and (min-width: 1024px) {
   .categories-cards a.card {
-    width: 430px;
+    width: 206px;
   }
 }
 @media screen and (min-width: 1440px) {
   .categories-cards a.card {
-    width: 300px;
+    width: 280px;
   }
 }
