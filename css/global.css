@@ -111,11 +111,8 @@ section.hero {
 }
 
 @media screen and (min-width: 1440px) {
-
-  section.hero h2{
-    width: 1270px;
+  section.hero h2 {
+    width: 1200px;
     margin: 0 auto;
   }
 }
-
-
