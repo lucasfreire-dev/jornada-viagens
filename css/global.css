@@ -67,6 +67,16 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 26px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 19px;
+  line-height: 32px;
+}
+
 .button {
   min-width: 280px;
   height: 64px;
@@ -95,6 +105,10 @@ section.hero {
     background-color: var(--primary-color);
   }
 
+  .content-title {
+    font-size: 22px;
+  }
+
   section {
     width: 890px;
   }
@@ -105,17 +119,18 @@ section.hero {
     background-color: var(--primary-color);
   }
 
+  .content-title {
+    font-size: 26px;
+  }
+
   section {
     width: 1200px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-
-  section.hero h2{
-    width: 1270px;
+  section.hero h2 {
+    width: 1200px;
     margin: 0 auto;
   }
 }
-
-

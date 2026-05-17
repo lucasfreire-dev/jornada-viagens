@@ -1,7 +1,7 @@
-.categories .section-title{
-    width: 318px;
-    margin: 0 auto;
-    margin-top: 60px;
+.categories .section-title {
+  width: 318px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .categories-cards {
@@ -23,12 +23,6 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards .card h3 {
-  font-size: 24px;
-  color: var(--text-primary-color);
-  font-weight: var(--title-weight);
-}
-
 .categories-cards .card.single-line {
   padding-top: 30px;
 }
@@ -37,10 +31,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .categories .section-title{
+  .categories .section-title {
     width: 100%;
     margin-top: 60px;
-}
+  }
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,6 +45,9 @@
 @media screen and (min-width: 1024px) {
   .categories-cards a.card {
     width: 206px;
+  }
+  .categories-cards .card.content-title {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1440px) {

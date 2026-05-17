@@ -74,7 +74,7 @@ nav {
   .navegation-menu li {
     margin: 0;
   }
-  .navegation-menu li a:hover{
+  .navegation-menu li a:hover {
     color: var(--secondary-color);
   }
 }
@@ -94,7 +94,6 @@ nav {
     display: block;
   }
 }
-
 @media screen and (min-width: 1920px) {
   header {
     padding: 38px 160px;
