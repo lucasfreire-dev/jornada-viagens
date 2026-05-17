@@ -46,6 +46,9 @@
   .categories-cards a.card {
     width: 206px;
   }
+  .categories-cards .card.content-title {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .categories-cards a.card {

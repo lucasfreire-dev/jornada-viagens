@@ -67,13 +67,13 @@ section.hero {
   margin: 16px auto 32px;
 }
 
-.content-title{
+.content-title {
   font-size: 26px;
   font-weight: var(--title-weight);
 }
 
-.content-text{
-  font-size: 22px;
+.content-text {
+  font-size: 19px;
   line-height: 32px;
 }
 
@@ -105,6 +105,10 @@ section.hero {
     background-color: var(--primary-color);
   }
 
+  .content-title {
+    font-size: 22px;
+  }
+
   section {
     width: 890px;
   }
@@ -113,6 +117,10 @@ section.hero {
 @media screen and (min-width: 1440px) {
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  .content-title {
+    font-size: 26px;
   }
 
   section {
