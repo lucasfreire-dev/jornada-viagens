@@ -91,7 +91,7 @@ section.hero {
   text-align: center;
 }
 
-footer{
+footer.section-info{
   color: var(--text-secondary-color);
   font-size: 16px;
   text-align: center;
