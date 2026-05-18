@@ -64,7 +64,7 @@
     justify-content: space-evenly;
   }
 
-  .section-payments p{
+  .section-payments p {
     width: 310px;
   }
 
@@ -88,7 +88,7 @@
     height: 182px;
     background-image: url(../img/bg-people-tablet.jpg);
   }
-  .secton-payments.content-text{
+  .secton-payments.content-text {
     width: 330px;
   }
 }
@@ -97,7 +97,7 @@
   .section-payments {
     display: flex;
   }
-.section-payments p{
+  .section-payments p {
     width: 380px;
   }
 
