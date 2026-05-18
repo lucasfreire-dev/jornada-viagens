@@ -3,6 +3,14 @@ footer .logo-footer{
     height: 40px;
     margin-top: 32px;
 }
+.img-footer{
+    background-image: url(../img/bg-footer-city-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+    margin-bottom: 0;
+}
 
 footer{
     background-color: var(--backgroud-tertiary-color);
