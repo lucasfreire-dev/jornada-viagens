@@ -29,8 +29,9 @@ footer.section-info p {
 }
 
 @media screen and (min-width: 768px) {
-  .section-info.img-footer {
+  .img-footer {
     background-image: url(../img/bg-footer-city-desktop.jpg);
+    height: 400px;
   }
   footer.section-info {
     height: 300px;
@@ -44,6 +45,7 @@ footer.section-info p {
 @media screen and (min-width: 1440px) {
   .img-footer {
     background-image: url(../img/bg-footer-city-desktop.jpg);
+    height: 600px;
   }
   .section-info {
     height: 232px;
@@ -58,5 +60,5 @@ footer.section-info p {
   }
   footer.section-info p {
     width: auto;
-}
+  }
 }
