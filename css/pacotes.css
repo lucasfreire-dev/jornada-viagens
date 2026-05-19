@@ -1,0 +1,33 @@
+.hero-pacotes {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/bg-fuji-mobile.jpg);
+  background-size: cover;
+  color: var(--text-secondary-color);
+}
+
+.text-img{
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.barra{
+    background-color: var(--secondary-color);
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+}
+
+.hero-pacotes h2{
+    font-size: 40px;
+    width: 294px;
+    margin-bottom: 0
+}
+
+.hero-pacotes p{
+    font-size: 20px;
+    width: 294px;
+}
