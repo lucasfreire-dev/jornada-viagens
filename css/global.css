@@ -91,6 +91,12 @@ section.hero {
   text-align: center;
 }
 
+footer.section-info{
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
